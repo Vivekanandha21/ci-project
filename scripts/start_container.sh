@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-docker pull vivekanandha/simple-python-flask-app:latest
+docker pull vivekanandha/simple-python-flask-app
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 docker pull vivekanandha/simple-python-flask-app
+docker run -d -p 5000:5000 vivekanandha/simple-python-flask-app
